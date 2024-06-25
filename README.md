@@ -12,6 +12,8 @@ Project Name : Sembako Queue Website
 
 Description : this project is used to get easier to manage sembako queue
 
+U need to Read the StrukturDirektori.txt to know about this Website Directory with PHP Native.
+
 How To Use
 1. First  need to register your account
 2. after that u can login with ur username and password
