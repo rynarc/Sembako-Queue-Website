@@ -1,0 +1,39 @@
+project-root/
+├── index.html
+├── login.html
+├── register.html
+├── dashboard.html
+├── queue.html
+├── profile.html
+├── edit_profile.html
+├── css/
+│   ├── dashboard.css
+│   ├── edit_profile.css
+│   ├── index.css
+│   ├── login.css
+│   ├── profile.css
+│   ├── queue.css
+│   ├── register.css
+│   └── styles.css
+├── js/
+│   ├── dashboard.js
+│   ├── edit_profile.js
+│   ├── login.js
+│   ├── profile.js
+│   ├── queue.js
+│   └── scripts.js
+├── images/
+│   ├── sembako-logo
+│   ├── gedung-logo
+│   └── antri-logo.png
+└── backend/
+    ├── dashboard_data.php
+    ├── dashboard.php
+    ├── db.php
+    ├── latest_queue.php
+    ├── login.php
+    ├── logout.php
+    ├── profile_data.php
+    ├── queue.php
+    ├── register.php
+    └── update_profile.php
