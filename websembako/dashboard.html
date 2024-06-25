@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Sembako Queue</title>
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Your Dashboard</h1>
+        <nav>
+            <a href="dashboard.html" class="active">Dashboard</a>
+            <a href="queue.html">Queue</a>
+            <a href="profile.html">Profile</a>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="overview">
+            <h2>Overview</h2>
+            <div class="cards" id="overviewCards">
+                <p>Total Antrian: <span id="totalQueues">0</span></p>
+                <p>Antrian Kamu: <span id="yourQueue">-</span></p>
+            </div>
+        </section>
+        <section class="latest-queue">
+            <h2>Latest Queue Status</h2>
+            <div class="queue-list" id="queueList">
+                <!-- Queue list will be populated by JavaScript -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Sembako Queue</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

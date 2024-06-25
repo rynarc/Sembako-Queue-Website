@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile - Sembako Queue</title>
+    <link rel="stylesheet" href="css/profile.css">
+</head>
+<body>
+    <header>
+        <h1>User Profile</h1>
+        <nav>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="queue.html">Queue</a>
+            <a href="edit_profile.html">Edit Profile</a>
+            <a href="backend/logout.php">Logout</a> <!-- Ini akan memanggil script logout.php -->
+        </nav>
+    </header>
+    <main class="container">
+        <section class="profile-info">
+            <h2>Profile Information</h2>
+            <div class="profile-details" id="profileDetails">
+                <!-- Informasi profil akan diisi oleh JavaScript -->
+                <p><strong>Full Name:</strong> <span id="fullName"></span></p>
+                <p><strong>Username:</strong> <span id="userName"></span></p>
+                <p><strong>Phone Number:</strong> <span id="phoneNumber"></span></p>
+                <p><strong>Password:</strong> <span id="password"></span></p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Sembako Queue</p>
+    </footer>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="js/profile.js"></script>
+</body>
+</html>
